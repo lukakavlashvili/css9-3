@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.burger {
+    display: none;
+}
+
+body {
+    background: #0E0E0E;
+}
+
+header {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fulheader {
+    max-width: 840px;
+    width: 100%;
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.Movies {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Series {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.filmbox {
+    display: flex;
+    gap: 152px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.Box {
+    color: #A00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.fullprofile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fullweb {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.ArleneMcCoy {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.firstmain {
+    background-image: url(./batman.png), url(./carimage.png);
+    max-width: 840px;
+    width: 100%;
+    height: 471px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.movemoht {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.Movethe {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.TheBatman {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 235px;
+}
+
+.fullstars {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.IMDBrating {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.stars {
+    width: 24px;
+}
+
+.comicsfull {
+    display: flex;
+    max-width: 355px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.fullfanta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.twetwo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Fantasy {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Americansuperhero {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.watchnow {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fullfirstgap {
+    display: flex;
+    gap: 92px;
+    flex-direction: column;
+}
+
+.fullshearch {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: wheat;
+    margin-top: 32px;
+}
+
+.Recommended {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.inputfull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.inputsearch {
+    display: flex;
+    max-width: 269px;
+    width: 100%;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #191919;
+}
+
+input::placeholder {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.search_inp {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.inputyear {
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    padding: 8px 12px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #191919;
+}
+
+.section_full {
+    border: none;
+    background: none;
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    appearance: none;
+}
+
+.fullcategory {
+    display: flex;
+    padding: 8px 12px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #191919;
+}
+
+.fullmove {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 241px;
+}
+
+.firstmovie {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    color: red;
+}
+
+.card {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url('./bigman.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.card:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+.card button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+.card:hover button {
+    display: block;
+}
+
+.cardtwo {
+    background-image: url(./blackman.png);
+}
+
+
+.cardthree {
+    background-image: url(./eye.png);
+}
+
+.cardfour {
+    background-image: url(./sniper.png);
+}
+
+.cardfive {
+    background-image: url(./twoman.png);
+}
+
+.cardsix {
+    background-image: url(./priceles.png);
+}
+
+.cardseven {
+    background-image: url(./first.png);
+}
+
+.cardeight {
+    background-image: url(./mobiegirl.png);
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    .fullweb {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .fullmove {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .burger {
+        display: flex;
+    }
+
+    .movies_nav {
+        display: none;
+    }
+
+    .firstmain::url(./batman.png){
+    display: none;
+}
+
+.inputfull {
+    flex-wrap: wrap;
+}
+
+.fulheader {
+    width: 100%;
+    gap: 33px;
+}
+
+
+.firstmovie {
+    flex-wrap: wrap;
+
+}
+
+.firstmain {
+    background-image: url(./carimage.png);
+}
+
+.cardtwo {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardthree {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardfour {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardfive {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardsix {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardseven {
+    max-width: 288px;
+    width: 100%;
+}
+
+.cardeight {
+    max-width: 288px;
+    width: 100%;
+}
+
+.card {
+    max-width: 288px;
+    width: 100%;
+}
+
+
+}
