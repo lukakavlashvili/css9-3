@@ -430,7 +430,7 @@ input::placeholder {
         display: none;
     }
 
-    .firstmain::url(./batman.png){
+    .firstmain::url(./batman.png) {
     display: none;
 }
 
@@ -491,6 +491,10 @@ input::placeholder {
 .card {
     max-width: 288px;
     width: 100%;
+}
+
+.ArleneMcCoy {
+    display: none;
 }
 
 
